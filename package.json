@@ -2,8 +2,9 @@
   "name": "vendorapp",
   "version": "1.0.0",
   "description": "An app for vendors, Vendors can upload pictures and descriptions of service and Users can search vendors",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "jest --coverage"
   },
   "repository": {
@@ -19,7 +20,7 @@
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cloudinary": "^1.32.0",
-    "connect-mongo": "^4.6.0",
+    "connect-mongo": "^3.2.0",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
