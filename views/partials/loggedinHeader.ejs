@@ -1,12 +1,14 @@
 
-<body class="container mx-auto bg-gradient-to-tl from-green-400  w-full py-2 px-4">
+<body class="my-color container mx-auto bg-gradient-to-tl from-green-300  w-full py-2 px-4">
     <br>
     <header class="">
       <div class="2xl:container 2xl:mx-auto">
         <div class="bg-white dark:bg-gray-800 rounded shadow-lg py-5 px-7">
-          <p class="hidden md:flex flex-auto space-x-2 justify-end  mb-8">Welcome! <span class="ml-2"><strong><%= user.firstName || user.userName%></strong> </span> </p> 
+          <p class="hidden md:flex flex-auto space-x-2 justify-end  mb-8">Welcome! <span class="ml-2"><strong><%= user.firstName || user.userName%></strong> </span> 
+          </p> 
+         
           <nav class="flex justify-between">
-            <a href="/">
+            <a href="/profile">
 
               <div class="flex items-center space-x-3 lg:pr-16 pr-6">
                 <img class="cursor-pointer dark:bg-white p-1 rounded-full" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/header-1-svg1.svg" alt="circle" />
