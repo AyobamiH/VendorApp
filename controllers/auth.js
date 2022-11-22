@@ -27,7 +27,7 @@ exports.postLogin = (req, res, next) => {
     gmail_remove_dots: false,
   });
 
-  passport.authenticate(["local", "google"], (err, user, info) => {
+  passport.authenticate(["local", "google", "facebook", "instagram"], (err, user, info) => {
     if (err) {
       return next(err);
     }
